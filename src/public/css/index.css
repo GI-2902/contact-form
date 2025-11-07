@@ -14,12 +14,12 @@
 }
 
 .form{
-    border:2px solid black;
-    height:300px;
+    height:500px;
     display:flex;
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
+    
 }
 
 .form_title{
@@ -31,10 +31,76 @@
 }
 
 .form_body{
-    border:2px solid gold;
-    width:600px;
-    height:150px;
+    width:700px;
+    height:280px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
 }
+
+.form_body_name{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+
+.form_body_name-text{
+    width:60%;
+    height:100%;
+}
+
+.form_body_name-text-tag-h{
+    color:gray;
+}
+
+.form_body_email{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+
+.form_body_email-text{
+    width:60%;
+    height:100%;
+}
+
+.form_body_name-email-tag-h{
+    color:gray;
+}
+
+.form_body_tel{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+
+.form_body_tel-text{
+    width:60%;
+    height:100%;
+}
+
+.form_body_tel-text-tag-h{
+    color:gray;
+}
+
+.form_body_contact{
+    display:flex;
+    justify-content:space-between;
+    align-items:first baseline;
+    width:100%;
+}
+
+.form_body_contact-text{
+    width:60%;
+    height:100%;
+}
+
+
+
 
 .form_button{
     width:600px;
