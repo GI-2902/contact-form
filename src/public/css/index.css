@@ -1,0 +1,52 @@
+.header{
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    background-color: black;
+}
+
+.header_logo{
+    margin-left:300px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+}
+
+.form{
+    border:2px solid black;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.form_title{
+    width:600px;
+    height:30px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.form_body{
+    border:2px solid gold;
+    width:600px;
+    height:150px;
+}
+
+.form_button{
+    width:600px;
+    height:30px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.form_button input{
+    background-color: black;
+    color:white;
+    width:50%;
+    height:100%;
+}
