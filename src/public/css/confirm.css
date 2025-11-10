@@ -1,6 +1,58 @@
-.form_body_border{
-    border:2px solid sandybrown;
+.header{
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    background-color: black;
+}
+
+.header_logo{
+    margin-left:300px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+}
+
+.form{
+    height:350px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.form_title{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.form_body_table{
+    border:2px solid gainsboro;
     border-collapse:collapse;
     width:600px;
     height:150px;
+}
+
+.form_body_table th{
+    width:30%;
+    background-color: whitesmoke;
+}
+
+.form_body_table-td{
+    margin-left:20px;
+}
+
+.form_button{
+    width:600px;
+    height:30px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.form_button input{
+    background-color: black;
+    color:white;
+    width:50%;
+    height:100%;
 }

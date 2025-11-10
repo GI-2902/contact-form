@@ -25,13 +25,15 @@
 .form_title{
     width:600px;
     height:30px;
+    font-size:24px;
+    font-weight:bold;
     display:flex;
     justify-content:space-around;
     align-items:center;
 }
 
 .form_body{
-    width:700px;
+    width:800px;
     height:280px;
     display:flex;
     flex-direction:column;
@@ -46,13 +48,26 @@
     width:100%;
 }
 
-.form_body_name-text{
-    width:60%;
-    height:100%;
+.form_body_name-h{
+    margin-right:100px;
+    color:gray;
 }
 
-.form_body_name-text-tag-h{
-    color:gray;
+.form_body_name-text{
+    width:60%;
+    margin-right:50px;
+}
+
+.form_body_error{
+    display:flex;
+    width:100%;
+    justify-content:right;
+}
+
+.form_body_error-message{
+    width:60%;
+    margin-right:50px;
+    color:red;
 }
 
 .form_body_email{
@@ -65,9 +80,11 @@
 .form_body_email-text{
     width:60%;
     height:100%;
+    margin-right:50px;
 }
 
-.form_body_name-email-tag-h{
+.form_body_email-h{
+    margin-right:100px;
     color:gray;
 }
 
@@ -81,9 +98,11 @@
 .form_body_tel-text{
     width:60%;
     height:100%;
+    margin-right:50px;
 }
 
-.form_body_tel-text-tag-h{
+.form_body_tel-h{
+    margin-right:100px;
     color:gray;
 }
 
@@ -97,6 +116,7 @@
 .form_body_contact-text{
     width:60%;
     height:100%;
+    margin-right:50px;
 }
 
 
