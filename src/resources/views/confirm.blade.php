@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
+        @section('css')
         <link rel="stylesheet" href="{{ asset('/css/confirm.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/sanitize.css')}}">
-        <title>フォーム入力ページ</title>
-    
-    </head>
+        @endsection
+        @section('title')
+        <title>フォーム確認画面</title>
+        @endsection
 
-
-    <body>
-        <header class="header">
-            <div class="header_logo">
-                Contact Form            
-            </div>
-        </header>
-        <main>
+        @section('content')
             <form class="form" method="post" action="{{ route('thanks',$contact)}}">
                 @csrf
                 <div class="form_title">
@@ -34,10 +23,5 @@
                 <div class="form_button">
                     <input type="submit" valaue="送信">
                 </div>
-
             </form>
-        </main>
-        
-    </body>
-
-</html>
+        @endsection
